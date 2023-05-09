@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #303030;
+    color: #FFF;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #C3C3C3;
+}
+
+.nav {
+    display: flex;
+    column-gap: 25px;
+
+}
+
+.nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.main, .main--projetos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main img {
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.header--about h1, .header--projects h1, .main--contact h1 {
+    color: pink;
+    font-size: 36px;
+}
+
+.header--about h2 {
+    font-size: 24px;
+}
+
+.section--about h2 {
+    font-size: 20px;
+    color: pink;
+}
+
+.section--about span {
+    font-weight: 600;
+}
+
+.social-links {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+.social-links img{
+    width: 40px;
+    height: 40px;
+} 
+
+.social-links a {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.projects-list li {
+    width: 200px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-list img {
+    width: 200px;
+}
+
+.main--contact form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 45%;
+}
+
+input, textarea {
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.form--message-input {
+    width: 100%
+
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: pink;
+    width: 220px;
+    padding: 16px 0;
+}
